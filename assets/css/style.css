@@ -1,0 +1,24 @@
+body {
+    background-image: url(../img/open-notebook-1974725_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Comic Sans MS', cursive;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: rgba(71, 71, 71, 0.9);
+        padding: 2%;
+
+    }
+}
+
+.none {
+    text-decoration: none;
+    color: white;
+}

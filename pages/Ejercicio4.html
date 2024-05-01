@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de 5 Números</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Calculadora de 5 Números</h2>
+        <label for="num1" class="mt-3">Ingrese el primer número:</label>
+        <input type="number" id="num1" placeholder="Número 1">
+        <label for="num2" class="mt-3">Ingrese el segundo número:</label>
+        <input type="number" id="num2" placeholder="Número 2">
+
+        <label for="num3" class="mt-3">Ingrese el tercer número:</label>
+        <input type="number" id="num3" placeholder="Número 3">
+
+        <label for="num4" class="mt-3">Ingrese el cuarto número:</label>
+        <input type="number" id="num4" placeholder="Número 4">
+
+        <label for="num5" class="mt-3">Ingrese el quinto número:</label>
+        <input type="number" id="num5" placeholder="Número 5">
+
+        <button type="button" class="btn btn-secondary mb-3 mt-3" onclick="calcular()">Calcular</button>
+        <div id="resultados"></div>
+        <button type="button" class="btn btn-dark"><a class="none" href="../index.html">Inicio</a></button>
+
+    </div>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/calculadora-5-num.js"></script>
+</body>
+
+</html>
